@@ -10,7 +10,7 @@ const db = mysql.createConnection({
 })
 
 app.get("/", (req, res) => {
-  res.send("Hello this is the backend!")
+  res.send("Hello this is the backend of Charity food project!")
 })
 
 app.listen(8800, () => {
