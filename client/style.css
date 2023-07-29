@@ -1,0 +1,50 @@
+/* CSS for the buttons */
+.buttons {
+    text-align: center;
+  }
+  
+  .register-button,
+  .donate-button {
+    padding: 12px 24px;
+    font-size: 18px;
+    margin: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .register-button:hover,
+  .donate-button:hover {
+    background-color: #45a049;
+  }
+
+  /* Custom styles for the restaurant gallery */
+.restaurant-gallery {
+    text-align: center;
+    padding: 40px;
+  }
+  
+  .restaurant-card {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .restaurant-card img {
+    max-width: 100%;
+    border-radius: 5px;
+  }
+  
+  .restaurant-card h3 {
+    margin-top: 10px;
+  }
+  
+  .restaurant-card p {
+    color: #777;
+  }
+  
+  
